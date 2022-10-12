@@ -1,0 +1,140 @@
+
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    font-family: 'ubuntu';
+    font-size: 1rem;
+}
+
+
+
+#h1_font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.main-img {
+    padding-top: 3em;
+    width: 30%;
+    right: 10%;
+    /* height: auto; */
+    transform: rotate(14deg);
+
+    position: absolute;
+}
+
+@media (max-width: 900px) {
+    .main-img {
+        position: static;
+        width: 60%;
+        transform: rotate(0deg);
+    }
+    #title {
+        height: 900px;
+        text-align: center;
+    }
+}
+
+/* feature */
+#features {
+    /* padding: 3% 15%; */
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-icon {
+    color: #ff4c68;
+}
+
+.fc {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+
+.fc h3 {
+    font-weight: 900;
+}
+
+/* carousel */
+
+#carousel{
+    background-color: #ff4c68;
+    color: white; 
+}
+
+#carousel h3 {
+    padding: 7% 15%;
+}
+
+#carousel p {
+    padding-bottom: 5%;
+}
+
+
+.c-img {
+    
+    width: 20em;;
+    border-radius: 50%;
+
+    display: inline-block; 
+    position: relative; 
+    /* overflow: hidden;  */
+    border-radius: 50%; 
+    /* margin-left: -50px; */
+}
+
+.slide {
+    text-align: center;
+}
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 1% 3%;
+}
+
+.p-card {
+    height: 350px;
+}
+
+/* footer */
+#footer {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 2%;
+}
+
+.footer-font {
+    color: #fff;
+    margin: 1em;
+}
+
+/* social */
+#social {
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 2%;
+}
+#social i {
+    margin: 5px;
+}
+
+
+
